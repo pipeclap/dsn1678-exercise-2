@@ -92,11 +92,6 @@ body {
   color: rgba(134, 238, 170, 0.6);
 }
 
-.chart__bar:hover,
-.chart__bar:focus,
-.chart__bar:active{
-  background-color: rgba(134, 238, 170, 0.6);
-}
 
 .chart__label {
   bottom: -1.7em;
