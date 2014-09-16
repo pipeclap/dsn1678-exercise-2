@@ -88,7 +88,7 @@ body {
 
 .chart__item:hover .chart__label
 {
-  color: rgba(225, 225, 225, 0.5);
+  color: rgba(225, 225, 225, 0.9);
 }
 
 
@@ -96,8 +96,9 @@ body {
   bottom: -1.7em;
   position: absolute;
   width: 100%;
-
+  color: rgba(225, 225, 225, 0.5);
   text-align: center;
+
 }
 
 .chart__bar-wrap {
