@@ -89,7 +89,7 @@ body {
 .chart__label:hover,
 .chart__label:focus,
 .chart__label:active{
-  background-color: rgba(134, 238, 170, 0.6);
+  color: rgba(134, 238, 170, 0.6);
 }
 
 .chart__bar:hover,
