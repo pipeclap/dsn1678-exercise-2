@@ -59,6 +59,15 @@ body {
   width: 7.3%;
 
   background-color: rgba(204, 204, 204, 0);
+  
+
+
+/*
+    transition: 
+    background-color 1000ms linear,
+    border-radius 2000ms linear
+    ;
+    transition: all 250ms linear;*/
 }
 
 .chart__link,
@@ -68,7 +77,16 @@ body {
 
   color: #e2e2e2;
   text-decoration: none;
+  transition: background-color 1000ms linear;
 }
+
+.chart__item:hover,
+.chart__item:focus,
+.chart__item:active{
+  background-color: rgba(225, 225, 225, 0.5);
+}
+
+
 
 .chart__label {
   bottom: -1.7em;
@@ -90,8 +108,8 @@ body {
   position: absolute;
   right: 0;
   top: 0;
-
   background-color: rgba(127, 219, 255, 0.6);
+
 }
 
 .chart__count {
